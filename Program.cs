@@ -6,7 +6,10 @@ namespace AdicionarProdutos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string nomeProduto = string.Empty;
+            double valorProduto;
+            int quantidadeProduto;
+            Console.WriteLine("Cadastro de produto.");
         }
     }
 }
