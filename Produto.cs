@@ -6,5 +6,8 @@ namespace AdicionarProdutos
 {
     class Produto
     {
+        public string nomeProduto = string.Empty;
+        public double valorProduto;
+        public int quantidadeProduto;
     }
 }
