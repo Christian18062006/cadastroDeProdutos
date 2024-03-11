@@ -28,5 +28,11 @@ namespace AdicionarProdutos
                 return (25);
             }
         }
+        public double calculaValorTotal()
+        {
+            double disconto = (valorProduto * verificaPorcentagem() / 100);
+            double valorFinal = disconto - valorProduto;
+            return (valorFinal);
+        }
     }
 }
