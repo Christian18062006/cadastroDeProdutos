@@ -46,6 +46,6 @@ namespace AdicionarProdutos
             int valorPorcentagem = verificaPorcentagem(quantidadeProduto);
             double valorTotal = calculaValorTotal(valorProduto, valorPorcentagem);
             Console.WriteLine($"O valor total do produto é de: {valorTotal.ToString("C2")}");
-            }
+}
         }
     }
