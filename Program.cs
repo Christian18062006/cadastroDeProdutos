@@ -43,7 +43,9 @@ namespace AdicionarProdutos
                 valorProduto = double.Parse(Console.ReadLine());
                 Console.WriteLine("Qual é a quantidade que você deseja?");
                 quantidadeProduto = int.Parse(Console.ReadLine());
-
+            int valorPorcentagem = verificaPorcentagem(quantidadeProduto);
+            double valorTotal = calculaValorTotal(valorProduto, valorPorcentagem);
+            Console.WriteLine($"O valor total do produto é de: {valorTotal.ToString("C2")}");
             }
         }
     }
