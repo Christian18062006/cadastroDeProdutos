@@ -16,7 +16,7 @@ namespace AdicionarProdutos
             valorProduto = double.Parse(Console.ReadLine());
             Console.WriteLine("Qual é a quantidade que você deseja?");
             quantidadeProduto = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Valor total do produto: {valorProduto.ToString("C2")}");
+            
         }
     }
 }
